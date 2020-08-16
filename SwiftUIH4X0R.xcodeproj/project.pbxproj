@@ -15,6 +15,10 @@
 		A973D341239EB3E20096656F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A973D33F239EB3E20096656F /* LaunchScreen.storyboard */; };
 		A973D34C239EB3E20096656F /* SwiftUIH4X0RTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A973D34B239EB3E20096656F /* SwiftUIH4X0RTests.swift */; };
 		A973D357239EB3E20096656F /* SwiftUIH4X0RUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A973D356239EB3E20096656F /* SwiftUIH4X0RUITests.swift */; };
+		A973D366239F106A0096656F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A973D365239F106A0096656F /* NetworkManager.swift */; };
+		A973D368239F155D0096656F /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A973D367239F155D0096656F /* PostData.swift */; };
+		A973D36B23A125BA0096656F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A973D36A23A125BA0096656F /* DetailView.swift */; };
+		A973D36D23A127130096656F /* Webview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A973D36C23A127130096656F /* Webview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		A973D352239EB3E20096656F /* SwiftUIH4X0RUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIH4X0RUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A973D356239EB3E20096656F /* SwiftUIH4X0RUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIH4X0RUITests.swift; sourceTree = "<group>"; };
 		A973D358239EB3E20096656F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A973D365239F106A0096656F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A973D367239F155D0096656F /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		A973D36A23A125BA0096656F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A973D36C23A127130096656F /* Webview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,10 @@
 		A973D333239EB3DE0096656F /* SwiftUIH4X0R */ = {
 			isa = PBXGroup;
 			children = (
+				A973D364239F10370096656F /* Models */,
 				A973D334239EB3DE0096656F /* AppDelegate.swift */,
 				A973D336239EB3DE0096656F /* SceneDelegate.swift */,
-				A973D338239EB3DE0096656F /* ContentView.swift */,
+				A973D36923A124E80096656F /* Views */,
 				A973D33A239EB3E20096656F /* Assets.xcassets */,
 				A973D33F239EB3E20096656F /* LaunchScreen.storyboard */,
 				A973D342239EB3E20096656F /* Info.plist */,
@@ -134,6 +143,25 @@
 				A973D358239EB3E20096656F /* Info.plist */,
 			);
 			path = SwiftUIH4X0RUITests;
+			sourceTree = "<group>";
+		};
+		A973D364239F10370096656F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A973D365239F106A0096656F /* NetworkManager.swift */,
+				A973D367239F155D0096656F /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A973D36923A124E80096656F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A973D338239EB3DE0096656F /* ContentView.swift */,
+				A973D36A23A125BA0096656F /* DetailView.swift */,
+				A973D36C23A127130096656F /* Webview.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,8 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A973D368239F155D0096656F /* PostData.swift in Sources */,
+				A973D36B23A125BA0096656F /* DetailView.swift in Sources */,
+				A973D366239F106A0096656F /* NetworkManager.swift in Sources */,
 				A973D335239EB3DE0096656F /* AppDelegate.swift in Sources */,
 				A973D337239EB3DE0096656F /* SceneDelegate.swift in Sources */,
+				A973D36D23A127130096656F /* Webview.swift in Sources */,
 				A973D339239EB3DE0096656F /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
